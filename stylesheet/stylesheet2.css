@@ -102,6 +102,10 @@ header {
     border-radius: 10px;
 }
 
+.content:hover {
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 .content p {
     padding-top: 10px;
