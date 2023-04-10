@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #0F8B8D;
+    background-size: cover;
+    width: 100%;
+    height: 145px;
+    margin-bottom: 40px;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+}
+
+.container_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_left {
+    margin-top: 39px;
+    margin-left: 89px;
+    width: 335px;
+    height: 67px;
+}
+
+.header_right {
+    margin-top: 54px;
+    margin-right: 50px;
+}
+
+.header_right a {
+    text-decoration: none;
+    margin-right: 49px;
+    color: white;
+    font-size: 30px;
+}
+
+.header_right a:hover {
+    color:#EC9A29;
+}
+
+.activeState {
+    padding-bottom: 10px;
+    border-bottom: 5px solid #EC9A29;
+}
+
+.container_contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    padding-left: 257px;
+    margin-top: 70px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h1 {
+    color: #0F8B8D;
+    font-size: 48px;
+    font-weight: 800px;
+    margin-bottom: 50px;
+}
+
+.form {
+    padding-left: 98px;
+    background: #ffffff;
+    border: 2px solid #d2d2d2;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.form p{
+    display: flex;
+    flex-direction: row;
+    color: #143642;
+    font-size: 30px;
+    font-weight: bold   ;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-right: 98px;
+}
+
+.name .line {
+    margin-left: 157px;
+}
+
+.name p {
+    margin-top: 19px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.email .line {
+    margin-left: 159px;
+}
+
+.email p {
+    margin-top: 19px;
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.number .line {
+    margin-left: 34px;
+}
+
+.number p {
+    margin-top: 19px;
+}
+
+.subject {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.subject .line {
+    margin-left: 132px;
+}
+
+.subject p {
+    margin-top: 19px;
+}
+
+.pesan {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.pesan .message {
+    margin-left: 107px;
+}
+
+.pesan p {
+    margin-top: 19px;
+}
+
+.line {
+    width: 493px;
+    height: 71px;
+    font-family: "Roboto";
+    font-size: 30px;
+    background: #ffffff;
+    border: 2px solid #d2d2d2;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.message {
+    width: 493px;
+    height: 200px;
+    font-family: "Roboto";
+    font-size: 30px;
+    background: #ffffff;
+    border: 2px solid #d2d2d2;
+    border-radius: 20px;
+}
+
+.form a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8201A;
+    border-radius: 55px;
+    text-decoration: none;
+    color: white;
+    height: 29px;
+    width: 140px;
+    font-size: 22px;
+    padding: 10px 50px;
+    margin: 0 auto;
+}
+
+.form a:hover {
+    color: black;
+    background-color: beige;
+}
+
+.footer {
+    margin-top: 70px;
+    height: 90px;
+    position: absolute;
+    width: 100%;
+}
+
+.simbol {
+    width: 70%;
+    height: 70%;
+    padding-left: 50px;
+}
+
+.container_footer {
+    background-color: #143642;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 100px;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail, .phone {
+    height: 40px;
+    width: 35px;
+    margin-left: 15px;
+}
+
+.footer_left1{
+    display: flex;
+    flex-direction: row;
+    padding-left:35px;
+    padding-top:15px;
+}
+
+.container_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.container_menu a:hover {
+    color: #EC9A29;
+}
+
+.menu_p {
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px;
+}
+
+.menu_p p {
+    color: #EC9A29;
+}
+
+.menu_p a {
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.menu_s {
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px;
+}
+
+.menu_s p {
+    color: #EC9A29;
+}
+
+.menu_s a {
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.menu_c {
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px;
+}
+
+.menu_c p {
+    color: #EC9A29;
+}
+
+.menu_c a {
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+}
