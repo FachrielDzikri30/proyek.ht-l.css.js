@@ -1,0 +1,260 @@
+/*untuk tablet*/
+@media (max-width:1000px) {
+    header {
+        height: 177px;
+    }
+    .container_header{
+        flex-direction: column;
+    }
+
+    .header_left {
+        margin-left: 40px;
+        width: 270px;
+        height: 54px;
+    }
+
+    .header_right {
+        margin-left: 70px;
+        margin-right: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .header_right a{
+        font-size: 20px;
+    }
+
+    .contacts {
+        padding-left: 120px;
+    }
+
+    .contact h1 {
+        font-size: 36px;
+    }
+
+    .form {
+        padding-left: 48px;
+    }
+
+    .form p {
+        font-size: 24px;
+    }
+
+    .line {
+        font-size: 24px;
+        width: 425px;
+        height: 60px;
+    }
+
+    .name {
+        margin-right: 48px;
+        margin-top: 20px;
+    }
+
+    .name, .email, .number, .subject, .pesan {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .form .line , .form .message{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .message {
+        font-size: 24px;
+        width: 425px;
+        margin-bottom: 20px;
+    }
+
+    .form a {
+        font-size: 24px;
+        height: 50px;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .simbol {
+        padding-left: 40px;
+        margin-left: 50px;
+        margin-right: 40px;
+        width: 60%;
+        height: 60%;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_p, .menu_s, .menu_c {
+        padding-left: 110px;
+    }
+
+    .menu_p a, .menu_s a, .menu_c a{
+        padding-left: 20px;
+    }
+}
+
+/*untuk smartphone*/
+@media (max-width:670px) {
+    header {
+        height: 145px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .container_header{
+        flex-direction: column;
+    }
+
+    .header_left {
+        margin-left: 40px;
+        width: 135px;
+        height: 27px;
+    }
+
+    .header_right {
+        margin-left: 70px;
+        margin-right: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .header_right a{
+        font-size: 14px;
+    }
+
+    .location {
+        margin: 0px;
+    }
+
+    .contacts {
+        padding-left: 43px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    .contact h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        padding-left: 23px;
+        padding-bottom: 20px;
+    }
+
+    .form p {
+        font-size: 12px;
+        margin-top:10px;
+    }
+
+    .line {
+        font-size: 12px;
+        width: 231px;
+        height: 40px;
+        padding-left: 15px;
+        border-radius: 10px;
+    }
+
+    .name {
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .name, .email, .number, .subject, .pesan {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    
+
+    .form .line , .form .message{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .message {
+        font-size: 12px;
+        width: 231px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .form a {
+        font-size: 12px;
+        height: 50px;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .simbol {
+        padding-left: 10px;
+        width: 50%;
+        height: 50%;
+        margin-top: 25x;
+        margin-left: 0;
+    }
+
+    .footer_left1 {
+        margin: 0px;
+        padding: 0px 0px 0px 30px;
+    }    
+
+    .mail, .phone {
+        width: 30px;
+        height: 25px;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_p, .menu_s, .menu_c {
+        padding-left: 40px;
+        font-size: 12px;
+    }
+
+    .menu_p a, .menu_s a, .menu_c a{
+        padding-left: 20px;
+        font-size: 12px;
+    }
+}

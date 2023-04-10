@@ -1,0 +1,376 @@
+/*untuk tablet*/
+@media (max-width:1000px) {
+
+    .container_header{
+        flex-direction: column;
+    }
+
+    .header_left {
+        margin-left: 40px;
+    }
+
+    .header_right {
+        margin-left: 70px;
+        margin-right: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .header_right a{
+        font-size: 20px;
+    }
+
+    .top {
+        margin: 150px;
+    }
+
+    .top h1{
+        font-size: 52px;
+    }
+
+    .top p{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .contents1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .who {
+        padding-right: 100px;
+        margin: 20px 0;
+    }
+
+    .contents2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .prods {
+        padding-left: 100px;
+        margin: 20px 0;
+    }
+
+    .contents3 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .cafe {
+        padding-right: 100px;
+        margin: 20px 0;
+    }
+
+    .findus {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .insta {
+        padding: 0px 70px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .feeds {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .feeds img {
+        width: 20%;
+        height: 20%;
+    }
+
+    .ask {
+        padding: 0px;
+    }
+
+    .ask p {
+        padding: 0px 100px;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .simbol {
+        padding-left: 110px;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+
+    .menu_p, .menu_s, .menu_c {
+        padding-left: 110px;
+    }
+
+    .menu_p a, .menu_s a, .menu_c a{
+        padding-left: 20px;
+    }
+
+    .panelFlex {
+        padding-bottom: 0px;
+    }
+    .accordion {
+        padding-top: 0px;
+    }
+}
+
+
+
+/*untuk smartphone*/
+@media (max-width:670px) {
+    header {
+        height: 450px;
+        margin-bottom: 50px;
+    }
+
+    .header_wrapper {
+        height: 450px;
+    }
+    .container_header{
+        flex-direction: column;
+    }
+
+    .header_left {
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 135px;
+        height: 27px;   
+    }
+
+    .header_right {
+        margin-left: 70px;
+        margin-right: 0;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .header_right a{
+        font-size: 12px;
+    }
+
+    .top {
+        margin: 98px 52px 98px 52px;
+    }
+
+    .top h1{
+        font-size: 36px;
+    }
+
+    .top p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .contents1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .weare {
+        width: 200px;
+        height: 250px;
+    }
+
+    .who {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 20px 0;
+    }
+
+    .who h1, .prods h1, .cafe h1 {
+        font-size: 20px;
+    }
+
+    .who p, .prods p, .cafe p {
+        font-size: 12px;
+    }
+
+    .contents2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .prods {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 20px 0;
+    }
+
+    .beverages {
+        width: 200px;
+        height: 200px;
+    }
+
+    .prods a, .cafe a {
+        font-size: 12px;
+    }
+
+    .contents3 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .hangout {
+        width: 250px;
+        height: 250px
+    }
+
+    .cafe {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 20px 0;
+    }
+    
+     .findus {
+        margin-left:0px;
+         margin-right:0px;
+    }
+
+    .insta {
+        padding: 0px 50px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .insta h1 {
+        font-size: 20px;
+    }
+
+    .feeds {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .feed {
+        margin-left: 10px;
+        margin-right: 10px;
+    };
+
+    .ask {
+        padding: 0px;
+    }
+
+    .ask h1 {
+        font-size: 20px;
+    }
+    .ask p {
+        padding: 0px 40px;
+        font-size: 12px;
+    }
+
+    .ask a {
+        font-size: 12px;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .simbol {
+        padding-left: 10px;
+        width: 50%;
+        height: 50%;
+        margin-top: 25x;
+    }
+
+    .footer_left1 {
+        margin: 0px;
+        padding: 0px 0px 0px 30px;
+    }    
+
+    .mail, .phone {
+        width: 30px;
+        height: 25px;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_p, .menu_s, .menu_c {
+        padding-left: 40px;
+        font-size: 12px;
+        padding-top: 0;
+    }
+
+    .menu_p a, .menu_s a, .menu_c a{
+        padding-left: 20px;
+        font-size: 12px;
+    }
+
+    .panelFlex {
+        padding-bottom: 0px;
+    }
+    .accordion{
+        padding-top: 0px;
+    }
+}

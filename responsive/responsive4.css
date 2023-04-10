@@ -1,0 +1,216 @@
+/*untuk tablet*/
+@media (max-width:1000px) {
+    header {
+        height: 177px;
+    }
+    .container_header{
+        flex-direction: column;
+    }
+
+    .header_left {
+        margin-left: 40px;
+        width: 270px;
+        height: 54px;
+    }
+
+    .header_right {
+        margin-left: 70px;
+        margin-right: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .header_right a{
+        font-size: 20px;
+    }
+
+    .comtainer_location {
+        margin: 0px;
+    }
+
+    .findus {
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+
+    .find {
+        margin-top: 40px;
+    }
+
+    .find p {
+        font-size: 22px;
+        margin-right: 0px;
+    }
+
+    iframe {
+        margin: 0;
+        width: 500px;
+        height: 560px;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .simbol {
+        padding-left: 40px;
+        margin-left: 50px;
+        margin-right: 40px;
+        width: 60%;
+        height: 60%;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_p, .menu_s, .menu_c {
+        padding-left: 110px;
+    }
+
+    .menu_p a, .menu_s a, .menu_c a{
+        padding-left: 20px;
+    }
+}
+
+/*untuk smartphone*/
+@media (max-width:670px) {
+    header {
+        height: 145px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .container_header{
+        flex-direction: column;
+    }
+
+    .header_left {
+        margin-left: 40px;
+        width: 135px;
+        height: 27px;
+    }
+
+    .header_right {
+        margin-left: 70px;
+        margin-right: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .header_right a{
+        font-size: 14px;
+    }
+
+    .location {
+        margin: 0px;
+    }
+
+    .container_location {
+        margin-left: 0px;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 130px;
+    }
+
+    .findus {
+        margin: 0px;
+    }
+
+    .findus h1 {
+        font-size: 20px;
+    }
+
+    .findus p {
+        font-size: 12px;
+    }
+
+    iframe {
+        width: 275px;
+        height: 275px;
+    }
+
+    .address {
+        width: 265px;
+        height: 135px;
+        padding-left: 30px;
+    }
+
+    .address h2{
+        font-size: 16px;
+    }
+
+    .address p {
+        font-size: 12px;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .simbol {
+        padding-left: 10px;
+        width: 50%;
+        height: 50%;
+        margin-top: 25x;
+        margin-left: 0;
+    }
+
+    .footer_left1 {
+        margin: 0px;
+        padding: 0px 0px 0px 30px;
+    }    
+
+    .mail, .phone {
+        width: 30px;
+        height: 25px;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_p, .menu_s, .menu_c {
+        padding-left: 40px;
+        font-size: 12px;
+    }
+
+    .menu_p a, .menu_s a, .menu_c a{
+        padding-left: 20px;
+        font-size: 12px;
+    }
+}

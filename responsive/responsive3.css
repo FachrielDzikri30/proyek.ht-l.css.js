@@ -1,0 +1,250 @@
+/*untuk tablet*/
+@media (max-width:1000px){
+    header {
+        height: 177px;
+    }
+    .container_header{
+        flex-direction: column;
+    }
+
+    .header_left {
+        margin-left: 40px;
+        width: 270px;
+        height: 54px;
+    }
+
+    .header_right {
+        margin-left: 70px;
+        margin-right: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .header_right a{
+        font-size: 20px;
+    }
+
+    .container_content {
+        margin: 0px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .bs {
+        margin: 20px 0 0 100px;
+    }
+
+    .bs h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .bs h2 {
+        font-size: 40px;
+
+    }
+
+    .bs p {
+        font-size: 20px ;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .contents2 {
+        margin: 0px 100px;
+    }
+
+    .contents2 h1 {
+        font-size: 40px;
+    }
+
+    .contents2 p,a {
+        font-size: 20px;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .simbol {
+        padding-left: 40px;
+        margin-left: 50px;
+        margin-right: 40px;
+        width: 60%;
+        height: 60%;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_p, .menu_s, .menu_c {
+        padding-left: 110px;
+    }
+
+    .menu_p a, .menu_s a, .menu_c a{
+        padding-left: 20px;
+    }
+
+}
+/*untuk smartphone*/
+@media (max-width:670px) {
+    header {
+        height: 145px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .container_header{
+        flex-direction: column;
+    }
+
+    .header_left {
+        margin-left: 40px;
+        width: 135px;
+        height: 27px;
+    }
+
+    .header_right {
+        margin-left: 70px;
+        margin-right: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .header_right a{
+        font-size: 14px;
+    }
+
+    
+    .container_content {
+        margin: 0px;
+        width: 360px;
+        flex-direction: column;
+    }
+
+    .contents {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .content {
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .butter {
+        width: 350px;
+        height: 250px;
+        margin: 0px;
+    }
+
+    .bs {
+        margin-left: 45px;
+        margin-right: 0px;
+        padding-right: 20px;
+        margin-top: 0px;
+    }
+
+    .bs h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .bs h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .bs p{
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .contents2 {
+        margin: 0px 45px;
+    }
+
+    .content2 h1 {
+        font-size: 20px;
+    }
+
+    .content2 p {
+        font-size: 12px;
+    }
+
+    .content2 a {
+        font-size: 12px;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .simbol {
+        padding-left: 10px;
+        width: 50%;
+        height: 50%;
+        margin-top: 25x;
+        margin-left: 0;
+    }
+
+    .footer_left1 {
+        margin: 0px;
+        padding: 0px 0px 0px 30px;
+    }    
+
+    .mail, .phone {
+        width: 30px;
+        height: 25px;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_p, .menu_s, .menu_c {
+        padding-left: 40px;
+        font-size: 12px;
+    }
+
+    .menu_p a, .menu_s a, .menu_c a{
+        padding-left: 20px;
+        font-size: 12px;
+    }
+}
